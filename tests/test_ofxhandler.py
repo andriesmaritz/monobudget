@@ -1,12 +1,11 @@
 import ofxhandler
 import unittest
-import datetime
 
 
 class TestOfxHandler(unittest.TestCase):
 
     def setUp(self):
-        self.ofx = ofxhandler.OfxHandler("config.json")
+        self.ofx = ofxhandler.OfxHandler("../bin/config.json")
 
     def test_file_parsed(self):
         self.assertIsNotNone(self.ofx.xml)
