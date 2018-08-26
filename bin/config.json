@@ -1,3 +1,4 @@
 {
-  "filename": "../bin/sample.ofx"
+  "filename": "../bin/sample.ofx",
+  "sql_database": "../bin/sampledb.sqlite"
 }
